@@ -125,7 +125,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/" element={
               <div className="text-center w-full">
-                <h2 className="text-2xl font-bold mb-4">Welcome to the Developers Portal</h2>
+                <h2 className="text-2xl font-bold mb-4">Welcome to the Resources Portal!</h2>
                 <p className="text-lg mb-8">Select a tab to explore resources in different domains of development.</p>
                 <div className="space-y-8">
                   <div className="flex flex-col sm:flex-row items-center p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full">

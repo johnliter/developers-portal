@@ -1,7 +1,7 @@
 {
   "name": "your-app-name",
   "version": "1.0.0",
-  "homepage": "https://github.com/johnliter/developers-portal",
+  "homepage": "https://johnliter.github.io/developers-portal",
   "private": true,
   "dependencies": {
     "react": "^18.0.0",
