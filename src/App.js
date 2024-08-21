@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaReact, FaServer, FaRobot, FaLinux, FaTools, FaMoneyBillAlt, FaSun, FaMoon, FaBars } from 'react-icons/fa';
+import Home from './components/Home';
 import FrontEnd from './components/FrontEnd';
 import BackEnd from './components/BackEnd';
 import AI from './components/AI';
@@ -116,6 +117,7 @@ function App() {
         </header>
         <main id="main-content" className="p-4 sm:p-8 flex flex-col items-center" role="main">
           <Routes>
+            <Route path="/" element={<Home />} />  {/* Home route */}
             <Route path="/frontend" element={<FrontEnd />} />
             <Route path="/backend" element={<BackEnd />} />
             <Route path="/ai" element={<AI />} />
