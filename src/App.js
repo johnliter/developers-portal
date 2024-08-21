@@ -123,7 +123,7 @@ function App() {
             <Route path="/learning-resources" element={<LearningResources />} />
             <Route path="/payment-processing" element={<PaymentProcessing />} />
             <Route path="/about" element={<About />} />
-            <Route path="/App" element={
+            <Route path="/" element={
               <div className="text-center w-full">
                 <h2 className="text-2xl font-bold mb-4">Welcome to the Developer Resource Portal!</h2>
                 <p className="text-lg mb-8">Select a tab to explore resources in different domains of development.</p>
