@@ -54,7 +54,7 @@ function App() {
           role="banner" /* Adding ARIA role */
         >
           <h1 className={`text-3xl sm:text-4xl font-bold mb-2 sm:mb-4 ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}>
-            Developers Portal
+            Developers Resource Portal
           </h1>
           <nav className="w-full sm:flex sm:justify-center" role="navigation" aria-label="Main Navigation">
             <div className="flex items-center justify-between w-full sm:w-auto">
@@ -123,9 +123,9 @@ function App() {
             <Route path="/learning-resources" element={<LearningResources />} />
             <Route path="/payment-processing" element={<PaymentProcessing />} />
             <Route path="/about" element={<About />} />
-            <Route path="/" element={
+            <Route path="/App" element={
               <div className="text-center w-full">
-                <h2 className="text-2xl font-bold mb-4">Welcome to the Resources Portal!</h2>
+                <h2 className="text-2xl font-bold mb-4">Welcome to the Developer Resource Portal!</h2>
                 <p className="text-lg mb-8">Select a tab to explore resources in different domains of development.</p>
                 <div className="space-y-8">
                   <div className="flex flex-col sm:flex-row items-center p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full">
